@@ -1,0 +1,26 @@
+﻿@model CorePractice.Models.Restaurent
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@Model.Name</h1>
+    <table border="1" cellpadding="10px">
+        <tr>
+            <td>Id</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>@Model.City</td>
+        </tr>
+        <tr>
+            <td>Contact Number</td>
+            <td>@Model.ContactNumber</td>
+        </tr>
+    </table>
+    <br />
+    <a asp-action="Index">Back To Index</a>
+</body>
+</html>

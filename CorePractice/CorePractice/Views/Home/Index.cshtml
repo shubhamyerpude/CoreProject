@@ -1,0 +1,32 @@
+﻿@model CorePractice.ViewModels.HomeRestaurentViewModel
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>@Model.CurrentMessage</h1>
+    <table border="1" cellpadding="10px">
+
+        @foreach (var restaurent in Model.Restaurents)
+        {
+        <tr>
+            <td>@restaurent.Name</td>
+            <td>
+                @*@Html.ActionLink("More Details...","Details", new { id = restaurent.Id })*@
+                <a asp-action="Details" asp-route-id="@restaurent.Id">More Details</a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@restaurent.Id">Delete</a>
+            </td>
+            <td>
+                <a asp-page="/Restaurent/Edit" asp-route-id="@restaurent.Id">Edit</a>
+            </td>
+        </tr>
+        }
+    </table>
+    <br />
+    <a asp-action="Create">Add Restaurant</a>
+</body>
+</html>

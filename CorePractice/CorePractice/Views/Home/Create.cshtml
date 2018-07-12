@@ -1,0 +1,28 @@
+﻿@model CorePractice.Models.Restaurent
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Add Restaurant</h1>
+    <form method="post">
+        <table border="1" cellpadding="10px">
+            <tr>
+                <td><label asp-for="Name"></label></td>
+                <td><input asp-for="Name" /> <span style="color:red" asp-validation-for="Name"></span></td>
+            </tr>
+            <tr>
+                <td><label asp-for="City"></label></td>
+                <td><input asp-for="City" /> <span style="color:red" asp-validation-for="City"></span></td>
+            </tr>
+            <tr>
+                <td><label asp-for="ContactNumber"></label></td>
+                <td><input asp-for="ContactNumber" /> <span style="color:red" asp-validation-for="ContactNumber"></span></td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" name="save" value="Save" />
+    </form>
+    <a asp-action="Index">Back To Index</a>
+</body>
+</html>

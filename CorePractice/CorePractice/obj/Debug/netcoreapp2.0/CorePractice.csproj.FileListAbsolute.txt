@@ -1,0 +1,11 @@
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\bin\Debug\netcoreapp2.0\CorePractice.deps.json
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\bin\Debug\netcoreapp2.0\CorePractice.runtimeconfig.json
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\bin\Debug\netcoreapp2.0\CorePractice.runtimeconfig.dev.json
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\bin\Debug\netcoreapp2.0\CorePractice.dll
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\bin\Debug\netcoreapp2.0\CorePractice.pdb
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.csproj.CoreCompileInputs.cache
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.AssemblyInfoInputs.cache
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.AssemblyInfo.cs
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.dll
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.pdb
+C:\Users\ShubhamY\source\repos\CorePractice\CorePractice\obj\Debug\netcoreapp2.0\CorePractice.csprojAssemblyReference.cache

@@ -1,0 +1,25 @@
+﻿@page "{id}"
+@using CorePractice.Pages
+@model EditModel
+
+    <h1>Edit @Model.Restaurent.Name</h1>
+    <form method="post">
+        <input type="hidden" asp-for="Restaurent.Id" />
+        <table border="1" cellpadding="10px">
+
+            <tr>
+                <td><label asp-for="Restaurent.Name"></label></td>
+                <td><input asp-for="Restaurent.Name" /><span style="color:red" asp-validation-for="Restaurent.Name"></span></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Restaurent.City"></label></td>
+                <td><input asp-for="Restaurent.City" /><span style="color:red" asp-validation-for="Restaurent.City"></span></td>
+            </tr>
+            <tr>
+                <td><label asp-for="Restaurent.ContactNumber"></label></td>
+                <td><input asp-for="Restaurent.ContactNumber" /><span style="color:red" asp-validation-for="Restaurent.ContactNumber"></span></td>
+            </tr>
+        </table>
+        <br />
+        <input type="submit" name="save" value="Update" />
+    </form>
